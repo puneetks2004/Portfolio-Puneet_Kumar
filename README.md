@@ -21,3 +21,8 @@ create account and get access key
 copy integerated code with react and simply add key in it and now you can see how on entering details your data is received in your email box
 
 --->to add pdf download add pdf in public folder in file structure than just add <a> tag with reference
+
+-------->for respponsiveness
+for mobile--480px
+for tab or mid phone 786 px
+laptop normally made for it
