@@ -1,0 +1,143 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 50px 170px;
+
+}
+
+.about-title {
+    position: relative;
+    /* But you can now use top,  left,  right, or bottom to offset it from its original position. */
+
+}
+
+.about-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+/* when parent is set to relative and child is set to absolute than child moves according to the parent position */
+.about-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    /*to make image appear in back of text*/
+}
+
+.about-sections {
+    display: flex;
+    gap: 80px;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+
+
+
+.about-acheivements {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.about-acheivement {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.about-acheivement h1 {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-acheivement p {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.about-acheivement :hover {
+    transform: scale(1.12);
+    transition-duration: 0.5s;
+    cursor:pointer;
+}
+
+/*for responsiveness we will add media queries*/
+
+@media(max-width:768px)
+{
+    .about{
+        gap:40px;
+        margin:50px 70px;
+        align-items:start;
+    }
+    .about-title h1{
+        font-size:50px;
+        padding:0;
+    }
+    .about-title img{
+width:130px;
+right:-20px;
+    }
+    .about-sections{
+        flex-direction:column;
+        gap:20px;
+    }
+    .about-para{
+        font-size:18px;
+        line-height: 32px;
+    }
+    .about-acheivements{
+        justify-content: space-between;
+
+    }
+    .about-acheivement {
+gap:10px;
+    }
+
+.about-acheivement h1 {
+    font-size:34px;
+    font-weight:700;
+}
+.about-acheivement p{
+    text-align:center;
+    font-size:16px;
+}
+.about-left img{
+    height:200px;
+    width:200px;
+}
+}

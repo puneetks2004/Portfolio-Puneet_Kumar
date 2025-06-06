@@ -1,0 +1,123 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    /*gap: adds space between child elements (like headings, paragraphs, buttons, etc.) inside the flex container.*/
+    justify-content: center;
+
+}
+
+.hero img {
+    /*targets img present inside hero */
+    margin-top: 100px;
+    height:280px;
+    width:280px;
+}
+
+.hero h1 {
+    /*targets h1 present inside hero */
+    text-align: center;
+    width: 70%;
+    /*The <h1>element will take up 70% of the width of its parent container (i.e., the .hero section).*/
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    /* These two CSS properties are used together to create text with a background image or gradient fill*/
+    -webkit-background-clip: text;
+    /* This clips the background (like a gradient or image) to the text shape,
+    not the entire element box.*/
+    -webkit-text-fill-color: transparent;
+    /* Makes the actual text color transparent,
+    so only the background showing through the text is visible. */
+}
+
+.hero p {
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    border-radius: 50px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-connect:hover {
+  
+    transform: scale(1.05);
+
+}
+
+.hero-resume {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    border-radius: 50px;
+    padding: 20px 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.hero-resume:hover {
+    
+    transform: scale(1.05);
+
+}
+
+.resume-outer{
+text-decoration:none;
+color: white;
+}
+
+/*for responsiveness we will add media queries*/
+
+@media(max-width:768px){
+.hero img{
+    margin-top:120px;
+    width:220px;
+    height:220px;
+    }
+    .hero h1{
+        margin-top:10px;
+        width:90%;
+        font-size:50px;
+    }
+    .hero p{
+        width:60%;
+        font-size:18px;
+        line-height:32px;
+        margin:10px 0px;
+    }
+
+    .hero-action{
+        gap:16px;
+        font-size:18px;
+        font-weight:500px;
+        margin-bottom:50px;
+    }
+    .hero-connect{
+        padding:20px 30px;
+        border-radius:40px;
+    }
+    .hero-resume{
+        padding:20px 50px;
+        border-radius:40px;
+    }
+}

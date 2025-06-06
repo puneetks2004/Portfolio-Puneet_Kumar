@@ -1,0 +1,181 @@
+.mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 100px;
+
+}
+
+.mywork-title {
+    position: relative;
+    margin: 50px 170px;
+}
+
+.mywork-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.mywork-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    /*to make image appear in back of text*/
+}
+
+.mywork-block {
+
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: 60vw;
+    height: 70vh;
+    display: grid;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    margin-bottom: 40px;
+}
+
+.work {
+    border: 2px solid white;
+    transition: transform 0.5s;
+    position: relative;
+    overflow: hidden
+}
+
+.work:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.work img {
+    transition: transform 0.5s;
+    width: 100%;
+
+}
+
+
+
+.b1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.b2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.b3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.b4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+
+.layer {
+    background: linear-gradient(rgba(0, 0, 0, 0), #ff004f);
+    height: 0;
+    width: 100%;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: height 0.5s;
+    cursor: pointer;
+}
+
+.layer p {
+    padding: 2px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    background: #fff #ff004f;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+@media(max-width:768px) {
+    .mywork {
+
+        align-items: center;
+        gap: 30px;
+        margin: 40px 0px;
+
+    }
+
+    .mywork-title h1 {
+        font-size: 50px;
+        padding: 0;
+
+    }
+
+    .mywork-title img {
+        width: 130px;
+        right: -20px;
+    }
+
+    .layer {
+
+        gap: 10px;
+
+    }
+
+    .layer p {
+        padding: 2px 10px;
+        font-size: 15px;
+
+    }
+
+    .logo {
+
+        height: 35px;
+        width: 35px;
+
+    }
+        .mywork-block {
+    
+           
+            width: 70vw;
+            
+          
+            
+        }
+}
