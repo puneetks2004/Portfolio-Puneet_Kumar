@@ -326,3 +326,10 @@
    
 
 }
+
+@media(max-width:436px)
+{
+    .parts{
+        margin-top:30px
+    }
+}
