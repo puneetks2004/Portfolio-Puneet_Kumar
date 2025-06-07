@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <>
             <div id="home" className="hero">
-                <div class="img-wrapper">
+                <div className="img-wrapper">
                     <img src={Profile_img} alt="" />
                 </div>
                 <h1><span>"Hi, I'm Puneet Kumar,</span> a full-stack web developer." </h1>
