@@ -196,3 +196,42 @@
         color: rgb(0, 115, 255);
     }
 }
+
+/* for 462px */
+
+@media(max-width:462px) {
+    .footer {
+
+
+        padding-top: 60px;
+        padding-right: 20px;
+        padding-left: 20px;
+
+    }
+
+    .footer-parent {
+
+        backdrop-filter: blur(1.5px);
+
+
+    }
+
+    .last {
+
+        font-size: 14px;
+
+
+
+    }
+
+    .quickh {
+        font-size: 25px;
+        color: rgb(0, 115, 255);
+    }
+
+        .footer-left img {
+            height: 120px;
+            width: 120px;
+            cursor: pointer;
+        }
+}

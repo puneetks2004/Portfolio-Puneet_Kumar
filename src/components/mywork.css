@@ -257,3 +257,74 @@ for 480px mobile */
 
     }
 }
+
+
+/* 
+for 462px mobile */
+
+
+@media(max-width:462px) {
+
+    .mywork {
+
+        align-items: center;
+        gap: 30px;
+        margin: 80px 0px;
+
+    }
+
+    .mywork-title h1 {
+        font-size: 32px;
+        padding: 0;
+
+    }
+
+    .mywork-title img {
+        width: 90px;
+        right: -20px;
+    }
+
+    .mywork-title {
+        position: relative;
+        margin: 50px 100px;
+    }
+
+
+
+    .layer {
+
+        gap: 10px;
+
+    }
+
+    .layer p {
+        padding: 2px 10px;
+        font-size: 15px;
+
+    }
+
+    .logo {
+
+        height: 35px;
+        width: 35px;
+
+    }
+
+    
+
+    .mywork-block {
+
+
+        width: 85vw;
+        height: 70vh;
+
+    }
+
+    .mywork-block {
+
+
+        row-gap: 2.2rem;
+        column-gap: 2.2rem;
+
+    }
+}
