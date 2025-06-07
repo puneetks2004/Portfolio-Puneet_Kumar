@@ -27,7 +27,7 @@ export default function About() {
 
                             </p>
                         </div>
-                       
+
                     </div >
                 </div >
                 <div className="about-acheivements">

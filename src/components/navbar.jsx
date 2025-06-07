@@ -1,4 +1,4 @@
-import React, { useState,useRef } from "react"
+import React, { useState, useRef } from "react"
 import "./navbar.css"
 import myupdatedimage from "../assets/myupdatedimage.png";
 import underline from "../assets/nav_underline.svg"
@@ -25,12 +25,12 @@ export default function Navbar() {
 
                 <AnchorLink className="anchor-link" offset={-80} href="#home"><img onClick={() => setMenu("Hero")}
                     src={myupdatedimage} alt="" /></AnchorLink>
-                    
+
 
                 <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
                 <ul ref={menuRef} className="nav-menu">
                     <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
-                    
+
                     <li><AnchorLink className="anchor-link" offset={-80} href="#home"><p onClick={() => setMenu("Hero")}>Home</p></AnchorLink>{menu === "Hero" ? <img src={underline} alt="" /> : <></>}</li>
 
                     <li><AnchorLink className="anchor-link" offset={5} href="#about"><p onClick={() => setMenu("About")} > About Me </p></AnchorLink>{menu === "About" ? <img src={underline} alt="" /> : <></>}</li>

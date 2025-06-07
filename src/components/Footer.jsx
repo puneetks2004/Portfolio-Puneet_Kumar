@@ -37,14 +37,14 @@ export default function Footer() {
                             <AnchorLink className="anchor-link" offset={-40} href="#mywork"><p onClick={() => setMenu("About")} className="quick">My Latest Projects</p></AnchorLink>
 
                             <AnchorLink className="anchor-link" offset={-5} href="#skill"><p onClick={() => setMenu("About")} className="quick">My Skills</p></AnchorLink>
-                            
+
                             <AnchorLink className="anchor-link" offset={-25} href="#lets-connect"><p onClick={() => setMenu("About")} className="quick">Let's Connect</p></AnchorLink>
-                            
-                          
-                            
-                          
-                            
-                             <AnchorLink className="anchor-link" offset={10} href="#contact"><p onClick={() => setMenu("About")} className="quick">Get in touch</p></AnchorLink>
+
+
+
+
+
+                            <AnchorLink className="anchor-link" offset={10} href="#contact"><p onClick={() => setMenu("About")} className="quick">Get in touch</p></AnchorLink>
 
                         </div>
                     </div>

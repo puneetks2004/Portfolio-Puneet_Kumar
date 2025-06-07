@@ -194,49 +194,136 @@
         height: 180px;
         width: 180px;
         margin-top: 60px;
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 
     .seg-2 {
         height: 180px;
         width: 180px;
         margin-top: 60px;
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 
     .seg-3 {
         height: 180px;
         width: 180px;
         margin-top: 20px;
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 
     .seg-4 {
         height: 180px;
         width: 180px;
         margin-top: 20px;
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
-.late {
-    
-    margin-bottom: 30px;
-}
-.getit {
-    font-size: 80px;
+
+    .late {
+
+        margin-bottom: 30px;
+    }
+
+    .getit {
+        font-size: 80px;
+
+    }
+
+    .late:hover {
+        transform: scale(1.12);
+    }
+
+    .mat:hover {
+        transform: scale(1.2);
+        border: 2px solid #b71efe;
+    }
+
+    .lets-connect {
+        gap: 10px;
+
+
+    }
 
 }
-.late:hover {
-    transform: scale(1.12);
-}
 
-.mat:hover {
-    transform: scale(1.2);
-    border: 2px solid #b71efe;
-}
-.lets-connect {
-    gap: 10px;
-  
+@media(max-width:480px) {
+    .lets-connect {
 
-}
+
+        gap: 40px;
+        margin: 50px 70px;
+    }
+
+
+    .title-connect h1 {
+
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .title-connect img {
+        width: 100px;
+        right: -20px;
+
+    }
+
+    .parts {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+
+    }
+
+    .seg-1 {
+        height: 150px;
+        width: 150px;
+        margin-top: 60px;
+        margin-bottom: 9px;
+    }
+
+    .seg-2 {
+        height: 150px;
+        width: 150px;
+        margin-top: 60px;
+        margin-bottom: 9px;
+    }
+
+    .seg-3 {
+        height: 150px;
+        width: 150px;
+        margin-top: 60px;
+        margin-bottom: 9px;
+    }
+
+    .seg-4 {
+        height: 150px;
+        width: 150px;
+        margin-top: 60px;
+        margin-bottom: 9px;
+    }
+
+    .late {
+
+        margin-bottom: 30px;
+    }
+
+    .getit {
+        font-size: 70px;
+
+    }
+
+    .late:hover {
+        transform: scale(1.12);
+    }
+
+    .mat:hover {
+        transform: scale(1.2);
+        border: 2px solid #b71efe;
+    }
+
+    .lets-connect {
+        gap: 10px;
+
+
+    }
 
 }

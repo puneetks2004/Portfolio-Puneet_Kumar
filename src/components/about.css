@@ -37,7 +37,7 @@
 .about-right {
     display: flex;
     flex-direction: column;
-  
+
 
 }
 
@@ -92,52 +92,109 @@
 .about-acheivement :hover {
     transform: scale(1.12);
     transition-duration: 0.5s;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*for responsiveness we will add media queries*/
 
-@media(max-width:768px)
-{
-    .about{
-        gap:40px;
-        margin:50px 70px;
-        align-items:start;
+@media(max-width:768px) {
+    .about {
+        gap: 40px;
+        margin: 50px 70px;
+        align-items: start;
     }
-    .about-title h1{
-        font-size:50px;
-        padding:0;
+
+    .about-title h1 {
+        font-size: 50px;
+        padding: 0;
     }
-    .about-title img{
-width:130px;
-right:-20px;
+
+    .about-title img {
+        width: 130px;
+        right: -20px;
     }
-    .about-sections{
-        flex-direction:column;
-        gap:20px;
+
+    .about-sections {
+        flex-direction: column;
+        gap: 20px;
     }
-    .about-para{
-        font-size:18px;
+
+    .about-para {
+        font-size: 18px;
         line-height: 32px;
     }
-    .about-acheivements{
+
+    .about-acheivements {
         justify-content: space-between;
 
     }
+
     .about-acheivement {
-gap:10px;
+        gap: 10px;
     }
 
-.about-acheivement h1 {
-    font-size:34px;
-    font-weight:700;
+    .about-acheivement h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .about-acheivement p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .about-left img {
+        height: 200px;
+        width: 200px;
+    }
 }
-.about-acheivement p{
-    text-align:center;
-    font-size:16px;
-}
-.about-left img{
-    height:200px;
-    width:200px;
-}
+
+
+@media(max-width:480px) {
+    .about {
+        gap: 40px;
+        margin: 50px 40px;
+        align-items: start;
+    }
+
+
+    .about-para {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .about-acheivements {
+        justify-content: space-between;
+
+    }
+
+    .about-acheivement {
+        gap: 10px;
+    }
+
+    .about-acheivement h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .about-acheivement p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .about-left img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .about-title h1 {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .about-title img {
+        width: 100px;
+        right: -20px;
+    }
+
 }

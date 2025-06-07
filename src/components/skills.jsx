@@ -130,13 +130,13 @@ export default function Skill({ text = "", onClick }) {
                                 <p>Docker</p>
                                 <hr />
                             </div>
-                            
+
 
                         </div>
-                        
+
                     </div>
 
                 </div></div>
-            </>
-            )
+        </>
+    )
 }

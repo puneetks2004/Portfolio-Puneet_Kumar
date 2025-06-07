@@ -60,6 +60,7 @@
     text-decoration: none;
     color: white;
 }
+
 /*for responsiveness we will add media queries*/
 
 .nav-mob-close {
@@ -68,12 +69,12 @@
 
 
 
-.nav-mob-open{
-    display:none;
+.nav-mob-open {
+    display: none;
 }
 
-.navbar img:hover{
-cursor:pointer;
+.navbar img:hover {
+    cursor: pointer;
 }
 
 @media(max-width:768px) {
@@ -128,5 +129,5 @@ cursor:pointer;
         gap: 20px;
 
     }
-   
+
 }
