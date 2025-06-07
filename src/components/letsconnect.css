@@ -194,54 +194,50 @@
         height: 180px;
         width: 180px;
         margin-top: 60px;
-        margin-bottom: 9px;
+            margin-bottom: 9px;
     }
 
     .seg-2 {
         height: 180px;
         width: 180px;
         margin-top: 60px;
-        margin-bottom: 9px;
+            margin-bottom: 9px;
     }
 
     .seg-3 {
         height: 180px;
         width: 180px;
         margin-top: 20px;
-        margin-bottom: 9px;
+            margin-bottom: 9px;
     }
 
     .seg-4 {
         height: 180px;
         width: 180px;
         margin-top: 20px;
-        margin-bottom: 9px;
+            margin-bottom: 9px;
     }
+.late {
+    
+    margin-bottom: 30px;
+}
+.getit {
+    font-size: 80px;
 
-    .late {
+}
+.late:hover {
+    transform: scale(1.12);
+}
 
-        margin-bottom: 30px;
-    }
+.mat:hover {
+    transform: scale(1.2);
+    border: 2px solid #b71efe;
+}
+.lets-connect {
+    gap: 10px;
+  
 
-    .getit {
-        font-size: 80px;
-
-    }
-
-    .late:hover {
-        transform: scale(1.12);
-    }
-
-    .mat:hover {
-        transform: scale(1.2);
-        border: 2px solid #b71efe;
-    }
-
-    .lets-connect {
-        gap: 10px;
-
-
-    }
+}
 
 }
 
@@ -269,8 +265,10 @@
     .parts {
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
-        padding: 0;
-
+        padding-left: 10px;
+        padding-right: 10px;
+        column-gap: 3rem;
+       
     }
 
     .seg-1 {
@@ -290,14 +288,14 @@
     .seg-3 {
         height: 150px;
         width: 150px;
-        margin-top: 60px;
+        margin-top: 20px;
         margin-bottom: 9px;
     }
 
     .seg-4 {
         height: 150px;
         width: 150px;
-        margin-top: 60px;
+        margin-top: 20px;
         margin-bottom: 9px;
     }
 
@@ -307,7 +305,7 @@
     }
 
     .getit {
-        font-size: 70px;
+        font-size: 60px;
 
     }
 
@@ -325,5 +323,6 @@
 
 
     }
+   
 
 }
