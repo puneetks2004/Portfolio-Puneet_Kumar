@@ -1,3 +1,16 @@
+@property --deg {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@property --inset {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: -20px;
+}
+
+
 .hero {
     display: flex;
     align-items: center;
@@ -10,9 +23,97 @@
 
 .hero img {
     /*targets img present inside hero */
-    margin-top: 100px;
     height: 280px;
     width: 280px;
+    position: relative;
+    z-index: 2;
+}
+
+.img-wrapper {
+    margin-top: 100px;
+    border: 7px transparent solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(from var(--deg),
+            #ff005e,
+            /* Hot Pink / Red */
+            #ff5b00,
+            /* Orange */
+            #00ff87,
+            /* Neon Green */
+            #00cfff,
+            /* Cyan Blue */
+            #6f00ff,
+            /* Purple */
+            #ff00ff,
+            /* Magenta */
+            #ff005e
+            /* Repeat to make it loop smoothly */
+        ) border-box;
+    isolation: isolate;
+    animation: rotate 2s linear infinite;
+}
+
+.img-wrapper::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: var(--inset);
+    border-radius: inherit;
+    background: conic-gradient(from var(--deg),
+            #ff005e,
+            /* Hot Pink / Red */
+            #ff5b00,
+            /* Orange */
+            #00ff87,
+            /* Neon Green */
+            #00cfff,
+            /* Cyan Blue */
+            #6f00ff,
+            /* Purple */
+            #ff00ff,
+            /* Magenta */
+            #ff005e
+            /* Repeat to make it loop smoothly */
+        ) border-box;
+    opacity: 0.5;
+    filter: blur(1rem);
+    animation: rotate 2s linear infinite, pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        --inset: -20px;
+    }
+
+    50% {
+        --inset: -25px;
+    }
+
+    100% {
+        --inset: -20px;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        --deg: 0deg;
+    }
+
+    50% {
+        --deg: 180deg;
+    }
+
+    100% {
+        --deg: 360deg;
+    }
+}
+
+.hero::before {
+    filter: blur(1.5rem)
 }
 
 .hero h1 {
@@ -149,4 +250,3 @@
 
 
 }
-
