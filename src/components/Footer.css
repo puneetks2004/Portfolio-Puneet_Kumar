@@ -164,6 +164,8 @@
     }
 }
 
+
+
 /* for 480px */
 
 @media(max-width:480px) {
@@ -209,12 +211,7 @@
 
     }
 
-    .footer-parent {
-
-        backdrop-filter: blur(1.5px);
-
-
-    }
+    
 
     .last {
 
@@ -224,14 +221,33 @@
 
     }
 
-    .quickh {
-        font-size: 25px;
-        color: rgb(0, 115, 255);
-    }
-
+    
         .footer-left img {
             height: 120px;
             width: 120px;
             cursor: pointer;
         }
+}
+
+@media(max-width:436px) {
+    .footer {
+
+
+        padding-top: 60px;
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+
+
+
+   
+
+        .footer-right .quick {
+            font-size: 16px;
+        }
+
+
+    
 }
