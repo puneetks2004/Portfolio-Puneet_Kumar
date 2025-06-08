@@ -262,7 +262,7 @@
 /* for 480px */
 @media(max-width:480px) {
     .about {
-        gap: 40px;
+        gap: 30px;
         margin: 50px 40px;
         align-items: start;
     }
