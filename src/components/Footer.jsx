@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Profile_img from "../assets/profile_img.svg"
+import fin from "../assets/fin.png"
 import c4 from "../assets/c4.jpg"
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { IoCall } from "react-icons/io5";
@@ -28,7 +28,7 @@ export default function Footer() {
                 <div className="footer-parent">
                     <div className="sub-parent">
                         <div className="footer-left">
-                            <img src={Profile_img} alt="" />
+                            <img src={fin} alt="" />
                         </div>
                         <div className="footer-right" >
                             <h2 className="quickh">Quick Links</h2>

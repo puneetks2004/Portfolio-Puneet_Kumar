@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import theme_pattern from "../assets/theme_pattern.svg"
-import profile_img from "../assets/profile_img.svg"
+import fin from "../assets/fin.png"
 
 export default function About() {
 
@@ -14,7 +14,7 @@ export default function About() {
                 </div>
                 <div className="about-sections">
                     <div className="about-left">
-                        <img src={profile_img} alt="" />
+                        <img src={fin} alt="" />
                     </div>
                     <div className="about-right">
                         <div className="about-para">

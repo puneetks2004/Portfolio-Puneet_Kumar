@@ -1,7 +1,8 @@
 import React from "react"
 import "./hero.css"
-import Profile_img from "../assets/profile_img.svg"
+// import Profile_img from "../assets/profile_img.svg"
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import fin from "../assets/fin.png"
 
 
 export default function Hero() {
@@ -9,7 +10,7 @@ export default function Hero() {
         <>
             <div id="home" className="hero">
                 <div className="img-wrapper">
-                    <img src={Profile_img} alt="" />
+                    <img src={fin} alt="" />
                 </div>
                 <h1><span>"Hi, I'm Puneet Kumar,</span> a full-stack web developer." </h1>
                 <p>"I'm Puneet Kumar, a passionate full-stack web developer skilled in building responsive and user-friendly web applications using modern technologies."</p>
