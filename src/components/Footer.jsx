@@ -13,6 +13,11 @@ export default function Footer() {
     const handleCallClick = () => {
         window.location.href = `tel:${phoneNumber}`;
     };
+
+
+   
+
+
     return (
         <>
             <div className="footer-above">
@@ -25,7 +30,7 @@ export default function Footer() {
                         <div className="footer-left">
                             <img src={Profile_img} alt="" />
                         </div>
-                        <div className="footer-right">
+                        <div className="footer-right" >
                             <h2 className="quickh">Quick Links</h2>
 
 

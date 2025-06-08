@@ -163,6 +163,156 @@
     text-decoration: none;
 }
 
+
+
+/* for 1280px */
+@media(max-width:1280px) {
+    .lets-connect {
+
+
+        gap: 40px;
+        margin: 50px 70px;
+    }
+
+
+    .title-connect h1 {
+
+        font-size: 55px;
+        padding: 0;
+    }
+
+    .title-connect img {
+        width: 130px;
+        right: -20px;
+
+    }
+
+
+    .lets-connect {
+        gap: 10px;
+
+
+    }
+
+    .seg-1 {
+        height: 220px;
+        width: 220px;
+
+
+    }
+
+    .seg-2 {
+        height: 220px;
+        width: 220px;
+
+
+    }
+
+    .seg-3 {
+        height: 220px;
+        width: 220px;
+
+
+    }
+
+    .seg-4 {
+        height: 220px;
+        width: 220px;
+
+
+    }
+
+    .parts {
+        margin-top: 50px;
+
+    }
+}
+
+/* for 1024px */
+@media(max-width:1024px) {
+    .lets-connect {
+
+
+        gap: 40px;
+        margin: 50px 70px;
+    }
+
+
+    .title-connect h1 {
+
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .title-connect img {
+        width: 130px;
+        right: -20px;
+
+    }
+
+    .parts {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+    }
+
+    .seg-1 {
+        height: 180px;
+        width: 180px;
+        margin-top: 60px;
+        margin-bottom: 9px;
+    }
+
+    .seg-2 {
+        height: 180px;
+        width: 180px;
+        margin-top: 60px;
+        margin-bottom: 9px;
+    }
+
+    .seg-3 {
+        height: 180px;
+        width: 180px;
+        margin-top: 20px;
+        margin-bottom: 9px;
+    }
+
+    .seg-4 {
+        height: 180px;
+        width: 180px;
+        margin-top: 20px;
+        margin-bottom: 9px;
+    }
+
+    .late {
+
+        margin-bottom: 30px;
+    }
+
+    .getit {
+        font-size: 80px;
+
+    }
+
+    .late:hover {
+        transform: scale(1.12);
+    }
+
+    .mat:hover {
+        transform: scale(1.2);
+        border: 2px solid #b71efe;
+    }
+
+    .lets-connect {
+        gap: 10px;
+
+
+    }
+
+}
+
+
+/* for 768px */
 @media(max-width:768px) {
     .lets-connect {
 
@@ -194,53 +344,59 @@
         height: 180px;
         width: 180px;
         margin-top: 60px;
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 
     .seg-2 {
         height: 180px;
         width: 180px;
         margin-top: 60px;
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 
     .seg-3 {
         height: 180px;
         width: 180px;
         margin-top: 20px;
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 
     .seg-4 {
         height: 180px;
         width: 180px;
         margin-top: 20px;
-            margin-bottom: 9px;
+        margin-bottom: 9px;
     }
-.late {
-    
-    margin-bottom: 30px;
-}
-.getit {
-    font-size: 80px;
+
+    .late {
+
+        margin-bottom: 30px;
+    }
+
+    .getit {
+        font-size: 80px;
+
+    }
+
+    .late:hover {
+        transform: scale(1.12);
+    }
+
+    .mat:hover {
+        transform: scale(1.2);
+        border: 2px solid #b71efe;
+    }
+
+    .lets-connect {
+        gap: 10px;
+
+
+    }
 
 }
-.late:hover {
-    transform: scale(1.12);
-}
 
-.mat:hover {
-    transform: scale(1.2);
-    border: 2px solid #b71efe;
-}
-.lets-connect {
-    gap: 10px;
-  
 
-}
-
-}
-
+/* for 480px */
 @media(max-width:480px) {
     .lets-connect {
 
@@ -268,7 +424,7 @@
         padding-left: 10px;
         padding-right: 10px;
         column-gap: 3rem;
-       
+
     }
 
     .seg-1 {
@@ -323,17 +479,18 @@
 
 
     }
-   
+
 
 }
 
-@media(max-width:436px)
-{
-    .parts{
-        margin-top:30px
+
+/* for 436px */
+@media(max-width:436px) {
+    .parts {
+        margin-top: 30px
     }
 
-        .parent{
-            margin-bottom:30px
-        }
+    .parent {
+        margin-bottom: 30px
+    }
 }

@@ -26,3 +26,14 @@ copy integerated code with react and simply add key in it and now you can see ho
 for mobile--480px
 for tab or mid phone 786 px
 laptop normally made for it
+furthur adjust accordingly
+
+
+-----to uninstall a dependency write "npm uninstall --name--"
+
+
+---for particle
+@tsparticles/react
+
+
+--while making responsive go from largest screen to smallest screen so only will override

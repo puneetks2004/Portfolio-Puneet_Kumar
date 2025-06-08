@@ -3,6 +3,7 @@ import "./hero.css"
 import Profile_img from "../assets/profile_img.svg"
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
+
 export default function Hero() {
     return (
         <>

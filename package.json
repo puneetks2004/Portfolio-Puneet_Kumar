@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "@react-three/fiber": "^9.1.2",
+    "@tsparticles/all": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "@types/three": "^0.177.0",
     "react": "^19.1.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.1.0",
