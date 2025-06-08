@@ -199,3 +199,33 @@
     }
 
 }
+
+
+/* for 480px */
+@media(max-width:480px) {
+.navbar {
+        margin: 20px 30px;
+    }
+}
+
+
+
+
+
+
+
+/* for 462px */
+@media(max-width:462px) {
+.navbar {
+        margin: 20px 25px;
+    }
+}
+
+/* for 436px */
+@media(max-width:436px) {
+    .navbar {
+            margin: 20px 20px;
+        }
+
+
+}
