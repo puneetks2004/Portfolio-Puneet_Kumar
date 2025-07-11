@@ -42,7 +42,7 @@ export default function About() {
                     </div>
                     <hr />
                     <div className="about-acheivement">
-                        <h1>10+</h1>
+                        <h1>2+</h1>
                         <p>Happy Clients</p>
                     </div>
                 </div>
