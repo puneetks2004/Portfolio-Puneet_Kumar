@@ -90,7 +90,7 @@
 
 
 .layer {
-    background: linear-gradient(rgba(0, 0, 0, 0), #ff004f);
+    background: linear-gradient(rgba(0, 0, 0, 0),#6f2a40, #ff004f);
     height: 0;
     width: 100%;
     display: flex;

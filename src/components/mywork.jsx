@@ -3,6 +3,8 @@ import "./mywork.css";
 import theme_pattern from "../assets/theme_pattern.svg"
 import back from "../assets/back.jpeg"
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
+import proj_1 from "../assets/proj_1.png"
+import proj_2 from "../assets/proj_2.png"
 
 export default function My_work() {
     return (
@@ -19,24 +21,24 @@ export default function My_work() {
                 <div className="mywork-block">
 
                     <div className="work b1" >
-                        <img src={back} />
+                        <img src={proj_1} />
                         <div className="layer">
                             <h2>
-                                Social Media
+                                NewsHub
                             </h2>
-                            <p>the app is all about game to play in life and see the magical changes</p>
-                            <a href="#"><FaExternalLinkSquareAlt className="logo" /></a>
+                            <p>Displays latest news using React, Tailwind CSS, and RSS feed.</p>
+                            <a href="https://github.com/puneetks2004/React_Development_Projects/tree/main/news-web"><FaExternalLinkSquareAlt className="logo" /></a>
                         </div>
                     </div>
 
                     <div className="work b2" >
-                        <img src={back} />
+                        <img src={proj_2} />
                         <div className="layer">
                             <h2>
-                                Social Media
+                                Weather App
                             </h2>
-                            <p>the app is all about game to play in life and see the magical changes</p>
-                            <a href="#"><FaExternalLinkSquareAlt className="logo" /></a>
+                            <p>Weather app built with React, showing live data using API.</p>
+                            <a href="https://react-development-projects.vercel.app/"><FaExternalLinkSquareAlt className="logo" /></a>
                         </div>
                     </div>
 
@@ -44,9 +46,9 @@ export default function My_work() {
                         <img src={back} />
                         <div className="layer">
                             <h2>
-                                Social Media
+                                coming soon
                             </h2>
-                            <p>the app is all about game to play in life and see the magical changes</p>
+                            <p>----------------coming soon---------------</p>
                             <a href="#"><FaExternalLinkSquareAlt className="logo" /></a>
                         </div>
                     </div>
@@ -55,9 +57,9 @@ export default function My_work() {
                         <img src={back} />
                         <div className="layer">
                             <h2>
-                                Social Media
+                                coming soon
                             </h2>
-                            <p>the app is all about game to play in life and see the magical changes</p>
+                            <p>----------------coming soon---------------</p>
                             <a href="#"><FaExternalLinkSquareAlt className="logo" /></a>
                         </div>
                     </div>

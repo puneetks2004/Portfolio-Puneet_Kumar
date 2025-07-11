@@ -56,7 +56,7 @@ export default function Contact() {
                                 <img src={call_icon} alt="" /><p> 6268251129</p>
                             </div>
                             <div className="contact-detail">
-                                <img src={location_icon} alt="" /><p>burjz khalifa , tower no.:r90, section 33</p>
+                                <img src={location_icon} alt="" /><p>Amity University Chhattisgarh, Raipur</p>
                             </div>
                         </div>
                     </div>
