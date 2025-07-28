@@ -19,7 +19,7 @@ export default function Hero() {
 
 
                     <a
-                        href="/resume.pdf"             // path to your file in public/
+                        href="/Puneet_Kumar_Resume.pdf"             // path to your file in public/
                         download="Puneet_Kumar_Resume.pdf"       // file will download with this name
                         className="resume-outer"
                     >
