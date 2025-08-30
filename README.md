@@ -28,7 +28,7 @@ Deployment:  Vercel <br><br>
 
 🔗 Live Portfolio: https://portfolio-puneet-kumar.vercel.app/
 
-
+<br>
 Images:<br><br>
 Home:<br><br>
 <img width="1898" height="883" alt="Image" src="https://github.com/user-attachments/assets/878858e2-8847-4a22-94b7-8e0972e6079f" />
