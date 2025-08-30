@@ -30,6 +30,20 @@ Deployment:  Vercel <br><br>
 
 
 Images:<br><br>
+Home:<br><br>
 <img width="1898" height="883" alt="Image" src="https://github.com/user-attachments/assets/878858e2-8847-4a22-94b7-8e0972e6079f" />
+<br>
+About Section:<br><br>
+<br>
+My Latest Work Section:<br><br>
+<br>
+My Skills Section:<br><br>
+<br>
+Let's Connect Section:<br><br>
+<br>
+Get in Touch Section:<br><br>
+<br>
+Footer Section:<br><br>
+<br>
 
 
